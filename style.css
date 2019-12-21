@@ -3,10 +3,13 @@
     margin:0px;
 }
 
+body{
+    background-color: #618685;
+}
 
 #title{
     text-align: center;
-    
+    color: #fff;
 }
 
 #description{
@@ -16,11 +19,31 @@
 #survey-form{
     margin: auto;
     padding: 20px;
-    background-color: blue;
+    background-color: #36486b;
     width: 400px;
-    height: 600px;
+    height: 630px;
 }
 
 .input-box {
     width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.recommend-checkbox{
+    margin-bottom: 10px;
+}
+
+#commen-section{
+    width:400px;
+    height: 80px;
+}
+
+button{
+    background-color:#4040a1;
+    padding: 0px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-color: #fff;
 }
