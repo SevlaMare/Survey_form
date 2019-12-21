@@ -14,7 +14,13 @@
 }
 
 #survey-form{
+    margin: auto;
+    padding: 20px;
     background-color: blue;
     width: 400px;
     height: 600px;
+}
+
+.input-box {
+    width: 100%;
 }

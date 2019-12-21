@@ -12,7 +12,45 @@
 
 <body>
     <form id="survey-form">
-        thinggs
+        <p>Name</p>
+        <input id="name" id="name-label" class="input-box" placeholder="Enter your name"></input>
+
+        <p>Email</p>
+        <input id="email" id="email-label" class="input-box" type="email" placeholder="Enter your Email"></input>
+
+        <p>Age(optional)</p>
+        <input id="number" id="number-label" type="number" min="0" max="120" class="input-box" placeholder="Age"></input>
+
+        <p>Which option best describes your current role?</p>
+        <select id="dropdown" class="input-box" class="select-role" placeholder="Select current role">
+            <option>Student</option>
+            <option>Full time job</option>
+            <option>Student</option>
+        </select>
+
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <input type="radio" class="recommend-checkbox" name="recommend-option">Definitely</input></br>
+        <input type="radio" class="recommend-checkbox" name="recommend-option">Maybe</input></br>
+        <input type="radio" class="recommend-checkbox" name="recommend-option">Not sure</input>
+
+        <p>Which option best describes your current role?</p>
+        <select class="input-box" class="select-role" placeholder="Select current role">
+            <option>Student</option>
+            <option>Full time job</option>
+            <option>Student</option>
+        </select>
+
+        <p>What would you like to see improved?</p>
+        <input type="checkbox" value="front-end" class="recommend-checkbox">Front-End</input></br>
+        <input type="checkbox" value="back-end" class="recommend-checkbox">Back-End</input></br>
+        <input type="checkbox" value="data-viz" class="recommend-checkbox">Data Vizualization</input></br>
+
+        <input id="commen-section" id="textarea" placeholder="Add your comment here"></input></br>
+
+        <button id="submit" type="button">Submit</button>
+
+
+
     </form>    
 </body>
 
